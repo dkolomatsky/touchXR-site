@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  background-color: white;
+  color: white;
+}
+
+.site-container,
+.footer-container {
+  margin: 20px 40px;
+  background-color: black;
+  }
+a {
+  text-decoration: none;
+}
+h2,
+.header-title {
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .site-container,
+  .footer-container {
+    margin: 10px 10px;
+    }
+}
