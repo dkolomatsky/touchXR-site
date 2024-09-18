@@ -152,3 +152,4 @@ task("concat", concatJS); // команда concat будет обьединят
 
 // task('build',parallel(buildMinJS, buildMinCss)); // команда создает копии всех фалов с расширением .min.css и .min.js (через метод parallel мы все задачи запустили одновременно)
 task("build", parallel(buildMinJS, buildMinCss));
+
