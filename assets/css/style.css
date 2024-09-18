@@ -33,9 +33,13 @@
 }
 
 .footer-text {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   font-size: 1.35rem;
+}
+
+.footer-email {
+  margin-bottom: 10px;
 }
 
 .footer-icons {
